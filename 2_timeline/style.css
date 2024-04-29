@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1:not(:nth-of-type(1)) {
+	margin-top: 100px;
+}
+
+.box {
+	display: inline-block;
+	width: 100px;
+	aspect-ratio: 1/1;
+	margin-top: 100px;
+}
+
+.circle {
+	display: inline-block;
+	width: 100px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+
+button {
+	background-color: rgb(126, 217, 217);
+	border: none;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: opacity 0.25s ease;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.aqua {
+	background-color: aqua;
+}
+
+.red {
+	background-color: red;
+}
+
+.gold {
+	background-color: gold;
+}
+
+.black {
+	background-color: black;
+}
+
+.gray {
+	background-color: gray;
+}
