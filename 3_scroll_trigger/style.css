@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+	height: 100vh;
+}
+
+section:nth-of-type(2) {
+	height: 75vh;
+}
+
+section:nth-of-type(3) {
+	height: 120vh;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.navy {
+	background-color: navy;
+}
+
+.skyblue {
+	background-color: skyblue;
+}
+
+.red {
+	background-color: rgb(174, 8, 8);
+}
+
+.peachpuff {
+	background-color: peachpuff;
+}
+
+.burlywood {
+	background-color: burlywood;
+}
+
+.square {
+	width: 200px;
+	aspect-ratio: 1/1;
+	border-radius: 20px;
+}
+
+.guage {
+	width: 2%;
+	height: 30px;
+	border-radius: 10px;
+}
