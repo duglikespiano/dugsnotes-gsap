@@ -29,6 +29,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Cursor Animations
 	const cursorFollower = document.querySelector('.cursor-follower');
 	const links = document.querySelectorAll('a');
+	document.addEventListener('mousemove', (event) => {
+		gsap.to(cursorFollower, {
+			duration: 0.1,
+			x: event.clientX,
+			y: event.clientY,
+			ease: 'power2.out',
+		});
+	});
+	links.forEach((link) => {
+		link.addEventListener('mouseenter', () => {
+			cursorFollower.classList.add('active');
+		});
+		link.addEventListener('mouseleave', () => {
+			cursorFollower.classList.remove('active');
+		});
+	});
 
 	// Marquee Animations
 	const marquee = document.querySelector('.marquee');

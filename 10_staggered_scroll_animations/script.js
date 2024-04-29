@@ -102,6 +102,27 @@ document.addEventListener('DOMContentLoaded', function () {
 	const skillsSection = document.querySelector('.skills');
 	const skillsTitle = document.querySelector('.skills h2');
 	const skillsList = document.querySelectorAll('.skills li');
+	const tlSkills = gsap.timeline({
+		scrollTrigger: {
+			trigger: skillsSection,
+			start: 'top center',
+			markers: true,
+		},
+	});
+	tlSkills
+		.from(skillsTitle, {
+			duration: 1,
+			opacity: 0,
+			y: 50,
+			ease: 'power1.out',
+		})
+		.from(skillsList, {
+			duration: 1,
+			opacity: 0,
+			stagger: 0.2,
+			y: 50,
+			ease: 'power1.out',
+		});
 
 	/* Contact section animations */
 	const contactSection = document.querySelector('.contact');
