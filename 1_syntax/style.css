@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.square {
+	width: 150px;
+	aspect-ratio: 1/1;
+	margin-bottom: 100px;
+}
+
+.circle {
+	width: 150px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	margin-bottom: 100px;
+}
+
+.box {
+	display: inline-block;
+	width: 100px;
+	aspect-ratio: 1/1;
+}
+
+.green {
+	background-color: green;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.aqua {
+	background-color: aqua;
+}
+
+.brown {
+	background-color: brown;
+}
