@@ -14,8 +14,8 @@
 ### 1. 概要
 
 - Project タイトル: dugsnotes_gasp
-- 関連 URL : https://dugsblog-production.up.railway.app
-- 期間 : 2024.04.29 - 進行中
+- 関連 URL : https://www.udemy.com/course/animating-with-greensock/
+- 期間 : 2024.04.29 - 2024.05.03
 - 人員 : 1 人
 - 技術スタック : </br>
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">

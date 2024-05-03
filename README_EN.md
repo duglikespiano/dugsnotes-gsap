@@ -15,7 +15,7 @@
 
 - Project title : dugsnotes_gasp
 - Related URL : https://www.udemy.com/course/animating-with-greensock/
-- Period : April 29 2024 - In progress
+- Period : April 29 2024 - May 03 2024
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">

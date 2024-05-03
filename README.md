@@ -15,7 +15,7 @@
 
 - 프로젝트명 : dugsnotes_gasp
 - 관련URL : https://www.udemy.com/course/animating-with-greensock/
-- 기간 : 2024.04.29 - 진행중
+- 기간 : 2024.04.29 - 2024.05.03
 - 인원 : 1인
 - 기술스택 : </br>
   <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
